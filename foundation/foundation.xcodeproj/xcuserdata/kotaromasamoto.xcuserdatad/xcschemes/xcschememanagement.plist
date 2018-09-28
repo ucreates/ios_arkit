@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>foundation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>iOSObjectiveCFoundation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>81ECFBB5200074780073571A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81ECFBBD200074780073571A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81ECFBD12000748A0073571A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81ECFBD92000748A0073571A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
