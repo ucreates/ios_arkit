@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "818F68C021537691007BFC11"
-               BuildableName = "client.app"
-               BlueprintName = "client"
-               ReferencedContainer = "container:client.xcodeproj">
+               BlueprintIdentifier = "817FB8D22154D7B200C9C35A"
+               BuildableName = "iOSSwiftFoundation.framework"
+               BlueprintName = "iOSSwiftFoundation"
+               ReferencedContainer = "container:foundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "817FB8DA2154D7B300C9C35A"
+               BuildableName = "iOSSwiftFoundationTests.xctest"
+               BlueprintName = "iOSSwiftFoundationTests"
+               ReferencedContainer = "container:foundation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "818F68C021537691007BFC11"
-            BuildableName = "client.app"
-            BlueprintName = "client"
-            ReferencedContainer = "container:client.xcodeproj">
+            BlueprintIdentifier = "817FB8D22154D7B200C9C35A"
+            BuildableName = "iOSSwiftFoundation.framework"
+            BlueprintName = "iOSSwiftFoundation"
+            ReferencedContainer = "container:foundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "818F68C021537691007BFC11"
-            BuildableName = "client.app"
-            BlueprintName = "client"
-            ReferencedContainer = "container:client.xcodeproj">
+            BlueprintIdentifier = "817FB8D22154D7B200C9C35A"
+            BuildableName = "iOSSwiftFoundation.framework"
+            BlueprintName = "iOSSwiftFoundation"
+            ReferencedContainer = "container:foundation.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "818F68C021537691007BFC11"
-            BuildableName = "client.app"
-            BlueprintName = "client"
-            ReferencedContainer = "container:client.xcodeproj">
+            BlueprintIdentifier = "817FB8D22154D7B200C9C35A"
+            BuildableName = "iOSSwiftFoundation.framework"
+            BlueprintName = "iOSSwiftFoundation"
+            ReferencedContainer = "container:foundation.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

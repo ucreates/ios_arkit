@@ -7,11 +7,11 @@
 // If such findings are accepted at any time.
 // We hope the tips and helpful in developing.
 // ======================================================================
-#import "DispatchQueue.h"
-@implementation DispatchQueue
-+ (void)execute:(dispatch_block_t)block {
-    dispatch_queue_t gq = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    dispatch_async(gq, block);
-    return;
+import Foundation
+public extension NSObject {
+    func uniqId() -> String {
+        let uuid: CFUUID = CFUUIDCreate(nil)
+        let uuidStr: CFString = CFUUIDCreateString(nil, uuid)
+        return uuidStr as String
+    }
 }
-@end
