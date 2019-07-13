@@ -1,6 +1,0 @@
-framework module iOSObjectiveCFoundation {
-  umbrella header "iOSObjectiveCFoundation.h"
-
-  export *
-  module * { export * }
-}

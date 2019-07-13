@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+workspace 'ios_arkit'
+project 'swift.project'
+def settings
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+  pod 'iOSSwiftFoundation', git: 'https://github.com/ucreates/ios_foundation/', branch: 'master'
+end
+target 'client' do
+  settings
+end

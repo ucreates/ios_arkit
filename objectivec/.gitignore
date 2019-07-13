@@ -2,7 +2,6 @@
 # OS generated #
 # ============ #
 *.DS_Store
-*.DS_Store
 *.DS_Store?
 ._*
 .Spotlight-V100
@@ -14,13 +13,14 @@ Thumbs.db
 # Xcode generated #
 # ============ #
 *.xcuserdata
-*/xcuserdata
-#*.xcworkspace
+*.xcworkspace
 *.hmap
 *.ipa
 *.dSYM.zip
 *.dSYM
+*.lock
 build/
+Pods/*
 # ============ #
 # for others   #
 # ============ #
